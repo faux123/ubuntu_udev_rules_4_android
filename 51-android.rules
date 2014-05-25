@@ -36,3 +36,6 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee0", MODE="0666", 
 SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", ATTR{idProduct}=="51af", MODE="0666", OWNER="<username>"
 # fastboot protocol on Sony Xperia Z2
 SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", ATTR{idProduct}=="0dde", MODE="0666", OWNER="<username>"
+# adb protocol on Samsung Galaxy S5
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", ATTR{idProduct}=="6860", MODE="0666", OWNER="<username>"
+
